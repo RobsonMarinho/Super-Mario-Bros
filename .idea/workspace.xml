@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c435396-8b67-4cc2-99c3-f629b77566ae" name="Default Changelist" comment="" />
+    <list default="true" id="2c435396-8b67-4cc2-99c3-f629b77566ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/tools.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mario_level01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Fixedsys500c.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/enemies.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/item_objects.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/level_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/mario_bros.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/smb_enemies_sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/text_images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/tile_set.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphics/title_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/death.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/flagpole.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/game_over.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/invincible.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/main_theme.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/main_theme_sped_up.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/out_of_time.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/stage_clear.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/world_clear.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/big_jump.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/brick_smash.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/bump.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/coin.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/count_down.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/fireball.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/kick.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/main_theme_sped_up.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/one_up.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/pipe.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/powerup.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/powerup_appears.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/small_jump.ogg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound/stomp.ogg" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,73 +55,93 @@
     <session id="1852593685">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="62" />
+          <entry key="py" value="387" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="62" />
+          <entry key="Python" value="387" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mario_level01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sound/__init__.py">
+        <entry file="file://$PROJECT_DIR$/data/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="189">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/music/__init__.py">
+        <entry file="file://$PROJECT_DIR$/data/tools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphics/__init__.py">
+        <entry file="file://$PROJECT_DIR$/data/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" selection-start-column="14" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fonts/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="27">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,6 +150,14 @@
         <option value="$PROJECT_DIR$/music/__init__.py" />
         <option value="$PROJECT_DIR$/graphics/__init__.py" />
         <option value="$PROJECT_DIR$/fonts/__init__.py" />
+        <option value="$PROJECT_DIR$/data/teste.py" />
+        <option value="$PROJECT_DIR$/data/components.py" />
+        <option value="$PROJECT_DIR$/data/states.py" />
+        <option value="$PROJECT_DIR$/mario_level01.py" />
+        <option value="$PROJECT_DIR$/data/main.py" />
+        <option value="$PROJECT_DIR$/data/tools.py" />
+        <option value="$PROJECT_DIR$/data/constants.py" />
+        <option value="$PROJECT_DIR$/data/setup.py" />
       </list>
     </option>
   </component>
@@ -96,11 +167,15 @@
     <option name="width" value="1925" />
     <option name="height" value="466" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,31 +186,16 @@
             <path>
               <item name="jogo-mario-bros" type="b2602c69:ProjectViewProjectNode" />
               <item name="jogo-mario-bros" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jogo-mario-bros" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jogo-mario-bros" type="462c0819:PsiDirectoryNode" />
-              <item name="graphics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jogo-mario-bros" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jogo-mario-bros" type="462c0819:PsiDirectoryNode" />
-              <item name="music" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jogo-mario-bros" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jogo-mario-bros" type="462c0819:PsiDirectoryNode" />
-              <item name="sound" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -166,10 +226,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="557" width="1925" height="466" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -190,31 +252,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fonts/__init__.py">
+    <entry file="file://$PROJECT_DIR$/fonts/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/graphics/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/music/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/sound/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/data/teste.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/components.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/states.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/constants.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphics/__init__.py">
+    <entry file="file://$PROJECT_DIR$/data/tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="28" />
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/music/__init__.py">
+    <entry file="file://$PROJECT_DIR$/resources/sound/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="27">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sound/__init__.py">
+    <entry file="file://$PROJECT_DIR$/data/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mario_level01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
