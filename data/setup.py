@@ -1,7 +1,7 @@
 __author__ = 'Robson_Marinho'
 
-
-#Configurações de tela
+import pygame  as pg
+import config
 
 #CRIA A TELA E DIRETÓRIOS DE RECURSOS
 
