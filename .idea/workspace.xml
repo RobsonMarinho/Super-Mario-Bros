@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c435396-8b67-4cc2-99c3-f629b77566ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/data/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/constants.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +33,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1157" />
+          <entry key="py" value="1491" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1157" />
+          <entry key="Python" value="1491" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -76,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/data/tools.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
@@ -89,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="230">
+              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -122,15 +122,15 @@
         <option value="$PROJECT_DIR$/data/states.py" />
         <option value="$PROJECT_DIR$/mario_level01.py" />
         <option value="$PROJECT_DIR$/data/main.py" />
-        <option value="$PROJECT_DIR$/data/constants.py" />
         <option value="$PROJECT_DIR$/data/setup.py" />
         <option value="$PROJECT_DIR$/data/tools.py" />
+        <option value="$PROJECT_DIR$/data/constants.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="63" />
+    <option name="x" value="-13" />
+    <option name="y" value="60" />
     <option name="width" value="1925" />
     <option name="height" value="466" />
   </component>
@@ -192,7 +192,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="63" width="1925" height="466" extended-state="0" />
+    <frame x="-13" y="60" width="1925" height="466" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
@@ -231,13 +231,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/states.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sound/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -278,6 +271,13 @@
             <element signature="e#31#50#0" expanded="true" />
             <marker date="1540849066118" expanded="true" signature="408:761" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
