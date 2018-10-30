@@ -1,1 +1,1 @@
-__author__ = 'Robson_Marinho'
+__author__ = 'Robson_Marinho && Isabela Oliveira'

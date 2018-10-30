@@ -1,4 +1,4 @@
-__author__ = 'Robson_Marinho'
+__author__ = 'Robson_Marinho && Isabela Oliveira'
 
 import pygame as pg
 import os
@@ -10,10 +10,10 @@ import os
 keybiding = {
 
     'action':pg.K_s,    #Tecla de ação
-    'jump':pg.K_SPACE,  #Tecla de Pulo
-    'left':pg.K_LEFT,  #Tecla de esquerda
-    'right':pg.K_RIGHT  #Tecla de direita
-
+    'jump'  :pg.K_SPACE,  #Tecla de Pulo
+    'left'  :pg.K_LEFT,   #Tecla de esquerda
+    'right' :pg.K_RIGHT,  #Tecla de direita
+    'down'  :pg.K_DOWN    #Tecla de abaixar
 }
 
 #CLASSE PRINCIPAL QUE CONTROLA O JOGO, CONTÉM O LOOP DO JOGO E OS EVENTOS
