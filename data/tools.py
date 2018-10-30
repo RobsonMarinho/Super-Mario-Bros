@@ -96,3 +96,49 @@ def update(self):
                 fps = self.clock.get_fps()
                 with_fps = "{} - {:.2f} FPS".format(self.caption, fps)
                 pg.display.set_caption(with_fps)
+
+    ## Declaração dos objetos ##
+class _State(object):
+    def __init__(self):
+        self.start_time = 0.0   #Tempo inicial
+        self.current_time = 0.0 #Tempo atual
+        self.done = False   #Verifica se a tela está aberta ou o jogo está sendo executado
+        self.quit = False   #Quandoe stiver TRUE é porque o jogo foi fechado
+        self.next = None
+        self.previous = None
+        self.persist = {}   #Array para guardar informações
+
+    def get_event(selfself, event):
+        pass    #Não pode ficar vazio , para isso, insere o pass
+
+    #Verifica a inicialização do jogo
+    def startup(self, current_time, persistant):
+        self.persist - persistant   #Persist, a variável contém os objetos
+        self.start_time = current_time  #Tempo sempre começa do zero e vai para current_time
+
+    def cleanup(self):
+        self.done = False
+        return self.persist
+
+    def update(selfsef, surface, keys, current_time):
+        pass
+
+###Carregamento dos diretórios// Qual diretório usar, a cor, e o tipo de arquivo###
+def load_all_gfx(directory, colorkey=(255, 0, 255), accept=('.png', 'jpg', 'bmp')):
+    graphics = {}   #Tupla para guardar as imagens
+    for pic in os.listdir(directory):   #Lista o diretório
+        name, ext = os.path.splitext(pic)
+        if ext.lower() in accept:
+            img = pg.image.load(ps.path.join(directory, pic))
+            if img.get alpha():
+                img = img.convert_alpha()
+            else:
+                img = img.convert()
+                img.set_colorkey(colorkey)
+            graphics[name]=img
+    return graphics
+
+'''Essa é a última função(que continua na aula 13) da aula 12 - Caminho das pastas'''
+def load_all_music(directory, accept=('.wav', '.mp3', '.ogg', '.mdi')):
+    songs = {}
+'''FUNÇÃO INCOMPLETA''''''FUNÇÃO INCOMPLETA''''''FUNÇÃO INCOMPLETA''''''FUNÇÃO INCOMPLETA''''''FUNÇÃO INCOMPLETA'''
