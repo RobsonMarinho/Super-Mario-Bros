@@ -2,8 +2,8 @@ __author__ = 'Robson_Marinho && Isabela Oliveira'
 
 import os                #centraliza tela com essa classe que é usada em bastante em jogos
 import pygame as pg      #importa pygame e "apelida/referencia" por 'pg'
-import tools             #importa classe tools
-import constants as c    #importa a constants "apelida/referencia" por 'c'
+from . import tools             #importa classe tools
+from . import constants as c    #importa a constants "apelida/referencia" por 'c'
 
     ### CRIANDO A TELA E DIRETÓRIOS DE RECURSOS ###
 
