@@ -18,7 +18,7 @@ pg.display.set_caption(c.TITLE)             #get título da tela
 SCREEN = pg.display.set_mode(c.SCREEN_SIZE) #get tamanho da tela  largura e altura
 SCREEN_RECT = SCREEN.get_rect()             #Recebe área retangular
 
-FONTS = ''  #Variável constante
-MUSIC = ''  #Variável de musicas
-GFX   = ''  #Variável de imagens/gráfico
-SFX   = ''  #Variável de som
+FONTS = tools.load_all_fonts(os.path.join("resources", "fonts"))  #Variável constante
+MUSIC = tools.load_all_music(os.path.join("resources", "music"))  #Variável de musicas
+GFX   = tools.load_all_gfx(os.path.join("resources", "graphics")) #Variável de imagens/gráfico
+SFX   = tools.load_all_sfx(os.path.join("resources", "sound"))    #Variável de som

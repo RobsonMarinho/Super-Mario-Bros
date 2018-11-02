@@ -117,7 +117,7 @@ class _State(object):
                 graphics[name]=img
         return graphics
 
-    ###FUNÇÃO DE MÚSICA ###
+    ###FUNÇÃO DE MÚSICA DE FUNDO AND MENU ###
     def load_all_music(directory, accept=('.wav', '.mp3', '.ogg', '.mdi')):
         songs = {}
         for song in os.path.splitext(song)
