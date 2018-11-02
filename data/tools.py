@@ -117,7 +117,24 @@ class _State(object):
                 graphics[name]=img
         return graphics
 
-    def load_all_music(directory, accept=('.wav', '.mp3', '.oqq', '.mdi')):
+    ###FUNÇÃO DE MÚSICA ###
+    def load_all_music(directory, accept=('.wav', '.mp3', '.ogg', '.mdi')):
         songs = {}
-        
+        for song in os.path.splitext(song)
+            name, ext = os.path.splitext(song)
+            if ext.lower() in accept:
+                songs[name] = os.path.join(directory, song)
+        return songs
 
+    ### FUNÇÃO DE FONTES ###
+    def load_all_fonts(selfdirectory, accept=('.ttf')):
+        return load_all_music(directory, accept)
+
+    ### FUNÇÃO SONS DO JOGO ###
+    def load_all_sfx(directory, accept=('.wav', '.mpe', '.ogg', '.mdi')):
+        effects = {}
+        for fx in os.listdir(directory):
+            name, ext = os.path.splitext(fx)
+            if ext.lower() in accept:
+                effects[name] = pg.mixer.Sound(os.path.join(directory, fx))
+        return effects
