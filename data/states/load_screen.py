@@ -3,7 +3,7 @@ __author__ = 'Robson_Marinho && Isabela Oliveira'
 from .. import setup, tools
 from .. import constants as c
 from .. import game_sound
-from ..components import info
+from .. components import info
 
 
 ### Recebe o estado de carregamento ###
@@ -11,7 +11,7 @@ class LoadScreen(tools._State):
     def __init__(self):
         tools._State.__init__(self)
 
-    def startup(selfself, current_time, persist):
+    def startup(self, current_time, persist):
         self.start_time = current_time
         self.persist = persist
         self.game_info = self.persist
