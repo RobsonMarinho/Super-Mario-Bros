@@ -1,17 +1,17 @@
-__author__ = 'Robson_Marinho && Isabela Oliveira'
 
 import pygame as pg
 import os
 
 keybinding = {
-    'action':pg.K_s,
-    'jump':pg.K_SPACE,
-    'left':pg.K_LEFT,
-    'right':pg.K_RIGHT,
-    'down':pg.K_DOWN
+    'action': pg.K_s,
+    'jump': pg.K_SPACE,
+    'left': pg.K_LEFT,
+    'right': pg.K_RIGHT,
+    'down': pg.K_DOWN
 }
 
-### Classe principal que controla o jogo, contém o loop do jogo e os eventos
+
+# Classe principal que controla o jogo, conter o loop do jogo e os eventos
 
 class Control(object):
     def __init__(self, caption):
@@ -22,10 +22,10 @@ class Control(object):
         self.fps = 60
         self.show_fps = False
         self.current_time = 0.0
-        self.keys = pg.key.get_pressed()    #Verifica se alguma tecla está pressionada
-        self.state_dict = ()    #Verifica o estado do jogo
-        self.state_name = None  #Verifica o id entre outras informações
-        self.state = None   #Informa jogando ou não jogando
+        self.keys = pg.key.get_pressed()
+        self.state_dict = {}
+        self.state_name = None
+        self.state = None
 
     def setup_states(self, state_dict, start_state):
         self.state_dict = state_dict
@@ -40,14 +40,13 @@ class Control(object):
             self.flip_state()
         self.state.update(self.screen, self.keys, self.current_time)
 
-    ### TROCA DE ESTADOS DO MENU
+    # Troca de estados do menu
     def flip_state(self):
         previous, self.state_name = self.state_name, self.state.next
         persist = self.state.cleanup()
         self.state = self.state_dict[self.state_name]
         self.state.startup(self.current_time, persist)
         self.state.previous = previous
-
 
     def event_loop(self):
         for event in pg.event.get():
@@ -58,7 +57,7 @@ class Control(object):
                 self.toggle_show_fps(event.key)
             elif event.type == pg.KEYUP:
                 self.keys = pg.key.get_pressed()
-                self.state.get_event(event)
+            self.state.get_event(event)
 
     def toggle_show_fps(self, key):
         if key == pg.K_F5:
@@ -67,7 +66,7 @@ class Control(object):
                 pg.display.set_caption(self.caption)
 
     def main(self):
-        """Main loop for entire program"""
+        """Main loop com a engine do programa"""
         while not self.done:
             self.event_loop()
             self.update()
@@ -78,9 +77,9 @@ class Control(object):
                 with_fps = "{} - {:.2f} FPS".format(self.caption, fps)
                 pg.display.set_caption(with_fps)
 
-### SEGUNDA CLASSE ###
+
 class _State(object):
-    def __ini__(self):
+    def __init__(self):
         self.start_time = 0.0
         self.current_time = 0.0
         self.done = False
@@ -90,51 +89,52 @@ class _State(object):
         self.persist = {}
 
     def get_event(self, event):
-        pass    #insere o pass para não ficar vazio e dar erro de endentação
+        pass
 
     def startup(self, current_time, persistant):
         self.persist = persistant
-        self.star_time = current_time
+        self.start_time = current_time
 
     def cleanup(self):
         self.done = False
         return self.persist
 
     def update(self, surface, keys, current_time):
-        pass    #insere o pass para não ficar vazio e dar erro de endentação
+        pass
 
-    def load_all_gfx(directory, colorkey=(255, 0, 255), accept=('.png', 'jpg', 'bmp')):
-        graphics = {}
-        for pic in os.listdir(directory):
-            name, ext = os.path.splitext(pic)
-            if ext.lower() in accept:
-                img = pg.image.load(os.path.join(directory, pic))
-                if img.get_alpha():
-                    img = img.convert_alpha()
-                else:
-                    img = img.convert()
-                    img.set_colorkey(colorkey)
-                graphics[name]=img
-        return graphics
 
-    ###FUNÇÃO DE MÚSICA DE FUNDO AND MENU ###
-    def load_all_music(directory, accept=('.wav', '.mp3', '.ogg', '.mdi')):
-        songs = {}
-        for song in os.path.splitext(song)
-            name, ext = os.path.splitext(song)
-            if ext.lower() in accept:
-                songs[name] = os.path.join(directory, song)
-        return songs
+def load_all_gfx(directory, colorkey=(255, 0, 255), accept=('.png', 'jpg', 'bmp')):
+    graphics = {}
+    for pic in os.listdir(directory):
+        name, ext = os.path.splitext(pic)
+        if ext.lower() in accept:
+            img = pg.image.load(os.path.join(directory, pic))
+            if img.get_alpha():
+                img = img.convert_alpha()
+            else:
+                img = img.convert()
+                img.set_colorkey(colorkey)
+            graphics[name] = img
+    return graphics
 
-    ### FUNÇÃO DE FONTES ###
-    def load_all_fonts(selfdirectory, accept=('.ttf')):
-        return load_all_music(directory, accept)
 
-    ### FUNÇÃO SONS DO JOGO ###
-    def load_all_sfx(directory, accept=('.wav', '.mpe', '.ogg', '.mdi')):
-        effects = {}
-        for fx in os.listdir(directory):
-            name, ext = os.path.splitext(fx)
-            if ext.lower() in accept:
-                effects[name] = pg.mixer.Sound(os.path.join(directory, fx))
-        return effects
+def load_all_music(directory, accept=('.wav', '.mp3', '.ogg', '.mdi')):
+    songs = {}
+    for song in os.listdir(directory):
+        name, ext = os.path.splitext(song)
+        if ext.lower() in accept:
+            songs[name] = os.path.join(directory, song)
+    return songs
+
+
+def load_all_fonts(directory, accept=('.ttf')):
+    return load_all_music(directory, accept)
+
+
+def load_all_sfx(directory, accept=('.wav', '.mpe', '.ogg', '.mdi')):
+    effects = {}
+    for fx in os.listdir(directory):
+        name, ext = os.path.splitext(fx)
+        if ext.lower() in accept:
+            effects[name] = pg.mixer.Sound(os.path.join(directory, fx))
+    return effects

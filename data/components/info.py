@@ -1,5 +1,3 @@
-__author__ = 'www.hugocursos.com.br'
-
 import pygame as pg
 from .. import setup
 from .. import constants as c
@@ -454,12 +452,3 @@ de carregamento"""
                 surface.blit(letter.image, letter.rect)
 
         surface.blit(self.flashing_coin.image, self.flashing_coin.rect)
-
-
-
-
-
-
-
-
-

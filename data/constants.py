@@ -63,3 +63,109 @@ BIG_TO_SMALL = 'big to small'           #De grande para pequeno
 FLAGPOLE = 'flag pole'                  #bandeira
 WALKING_TO_CASTLE = 'walking to castle' #Andando ao castelo
 END_OF_LEVEL_FALL = 'end of level fall' #Final do level
+
+#ESTADOS DE POSIÇÃO
+
+LEFT = 'left'
+RIGHT = 'right'
+JUMPED_ON = 'jumped on'
+DEATH_JUMP = 'death jump'
+
+
+SHELL_SLIDE = 'shell slide'
+
+#ESTADO DOS TIJOLOS
+
+RESTING = 'resting'
+BUMPED = 'bumped'
+
+#MOEDAS
+OPENED = 'opened'
+
+#ESTADOS DE COGUMELOS
+
+REVEAL = 'reveal'
+SLIDE = 'slide'
+
+#ESTADOS DE MOEDAS
+
+SPIN = 'spin'
+
+#ESTADO ESTRELAS
+
+BOUNCE = 'bounce'
+
+#ESTADOS DE FOGO E EXPLOSÃO
+
+FLYING = 'flying'
+BOUNCING = 'bouncing'
+EXPLODING = 'exploding'
+
+#CONTEUDO DAS CAIXAS E MOEDAS
+
+MUSHROOM = 'mushroom'
+STAR = 'star'
+FIREFLOWER = 'fireflower'
+SIXCOINS = '6coins'
+COIN = 'coin'
+LIFE_MUSHROOM = '1up_mushroom'
+
+FIREBALL = 'fireball'
+
+#LISTA DE INIMIGOS
+
+GOOMBA = 'goomba'
+KOOPA = 'koopa'
+
+#ESTADOS DOS NIVEIS
+
+FROZEN = 'frozen'
+NOT_FROZEN = 'not frozen'
+IN_CASTLE = 'in castle'
+FLAG_AND_FIREWORKS = 'flag and fireworks'
+
+#ESTADO DA BANDEIRA
+TOP_OF_POLE = 'top of pole'
+SLIDE_DOWN = 'slide down'
+BOTTOM_OF_POLE = 'bottom of pole'
+
+#1UP PONTOS
+ONEUP = '379'
+
+#MAIN MENU ESTADOS DO CURSOR
+PLAYER1 = '1 player'
+PLAYER2 = '2 player'
+
+#ESTADOS DE CARREGAMENTO DE INFORMAÇÕES
+MAIN_MENU = 'main menu'
+LOAD_SCREEN = 'loading screen'
+LEVEL = 'level'
+GAME_OVER = 'game over'
+FAST_COUNT_DOWN = 'fast count down'
+END_OF_LEVEL = 'end of level'
+
+
+#INFORMAÇÕES DE TEXTOS DO JOGO
+COIN_TOTAL = 'coin total'
+SCORE = 'score'
+TOP_SCORE = 'top score'
+LIVES = 'lives'
+CURRENT_TIME = 'current time'
+LEVEL_STATE = 'level state'
+CAMERA_START_X = 'camera start x'
+MARIO_DEAD = 'mario dead'
+
+#ESTADOS DA ENGINE DO JOGO
+MAIN_MENU = 'main menu'
+LOAD_SCREEN = 'load screen'
+TIME_OUT = 'time out'
+GAME_OVER = 'game over'
+LEVEL1 = 'level1'
+
+#ESTADOS DOS SONS
+NORMAL = 'normal'
+STAGE_CLEAR = 'stage clear'
+WORLD_CLEAR = 'world clear'
+TIME_WARNING = 'time warning'
+SPED_UP_NORMAL = 'sped up normal'
+MARIO_INVINCIBLE = 'mario invincible'
